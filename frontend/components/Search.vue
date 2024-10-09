@@ -3,6 +3,7 @@ import '@algolia/autocomplete-theme-classic';
 import { h, Fragment, render, onMounted } from 'vue';
 import { autocomplete } from '@algolia/autocomplete-js';
 import { useRouter } from 'vue-router';
+
 import {
   meilisearchAutocompleteClient,
   getMeilisearchResults,
